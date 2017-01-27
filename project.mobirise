@@ -1,0 +1,392 @@
+{
+  "settings": {
+    "name": "FB Live Video Scheduler - Automate FB Live Video Streams",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {}
+    },
+    "versionFirst": "3.11.1",
+    "uniqCompNum": 9,
+    "versionPublish": "3.11.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-4601614-75', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
+    "cookiesAlert": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-6",
+          "_params": {
+            "logo": false,
+            "brandName": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brandName": "<a data-app-btn=\"true\" data-app-selector=\".navbar-header a\" href=\"./index.html\" class=\"navbar-brand brand\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">FB LIVE AUTOMATION</a>",
+          "buttons": "<li><a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"#\" data-toolbar=\"-mbrBtnMove\"><span class=\"fa fa-cloud-download\"></span>&nbsp;GET NOTIFIED WHEN WE LAUNCH</a></li>",
+          "itemsRight": "<li class=\"dropdown1\"><a class=\"text-white\" data-app-btn=\"true\" data-app-selector=\".nav.navbar-nav.navbar-right a\" href=\"index.html#msg-box18-3\">WHY USE THIS?</a></li>",
+          "_styles": {
+            ".navbar-header a": {
+              "font-size": "24px"
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "iconsColor": "#fff",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1445.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#2ca0da",
+            "showForm": true,
+            "showTitle": true,
+            "showText": true,
+            "showIcons": true,
+            "icon1": "fa-cloud-upload",
+            "icon2": "fa-play-circle"
+          },
+          "title": "Get notified when<br>we launch!",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jay@weingage.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "First Name",
+                "visible": true,
+                "customTitle": "First Name"
+              },
+              "lastName": {
+                "title": "Last Name",
+                "visible": true,
+                "customTitle": "Last Name"
+              },
+              "email": {
+                "title": "Email Address",
+                "visible": true,
+                "customTitle": "Email Address"
+              },
+              "phone": {
+                "title": "Phone No.",
+                "visible": false,
+                "customTitle": "Phone No."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SIGN ME UP!</a>",
+          "title1": "Schedule any Video as<br>a FB Live Stream",
+          "title2": "UPLOAD VIDEO AND SCHEDULE YOUR STREAM",
+          "text1": "Upload your video to our platform and schedule a time for your stream to go live. Plan your FB Live schedule for weeks in advance using videos you already have created!&nbsp;",
+          "title3": "WE PLAY YOUR VIDEO AS A FB LIVE STREAM",
+          "text2": "When the time arrives, we'll play your video file as a FB live stream. Interact with your audience and reap the rewards of the extended reach of Live in the FB algorithm!",
+          "_customCSS": "#header1-1 .col-sm-7{\n    text-shadow: 0px 0px 3px rgba(0,0,0,.5);\n}"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_anchor": "msg-box18-3",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "title": "Why use FB Live Scheduler?",
+          "text": "Anyone can upload a video to FB or go live from their mobile device, but the live format doesn't work for everyone. Marketers looking to<br>maximize their reach and automate their marketing will love our easy-to-use, time-saving platform. &nbsp;",
+          "_styles": {
+            "H3": {
+              "color": "#393939"
+            },
+            "P": {
+              "color": "#737373"
+            }
+          }
+        },
+        {
+          "title4": "Flashy Look",
+          "text4": "Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-2",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "iconsColor": "#29d9c2",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showIcons": true,
+            "icon1": "fa-mobile",
+            "showTitles": true,
+            "showText": true,
+            "icon2": "fa-trophy",
+            "icon3": "fa-check-circle"
+          },
+          "title1": "INCREASED REACH",
+          "text1": "Facebook is currently prioritizing Live streams in the News Feed. Think back - how many times have you opened your phone to a live video at the top? &nbsp;What does this type of visibility mean for your brand, or if you're a marketer - your clients? More engagement!",
+          "title2": "AUTOMATED STREAMING",
+          "text2": "Live video is less flexible than video you record &amp; edit. While that's part of what makes it great, it's also limiting. Our platform lets you schedule your edited videos as live streams months or weeks in advance. Set it and forget it.",
+          "title3": "Notifications",
+          "text3": "One of the biggest advantages of FB Live is that a notification is sent to your followers or friends when you go live! Traditional video uploads don't offer this. How many more followers would watch your video if they were notified?"
+        },
+        {
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/1.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "Bakery egg foods around the world",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/2.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "Bakery egg foods around the world",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/3.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "Bakery egg foods around the world",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/blog/4.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "Bakery egg foods around the world",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>Nulla pharetra porttitor justo eu maximus. Curabitur cursus at lectus at tristique. Curabitur vehicula augue eget magna finibus, nec lobortis ligula interdum. Quisque in tellus augue.</p><a href=\"./blog-single.html\" class=\"rmore\">Continue reading <i class=\"fa fa-angle-right\"></i></a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box23",
+          "_anchor": "msg-box23-5",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text1": "<p></p><p>\"People spend more than 3x more time watching a Facebook Live video on average compared to a video that’s no longer live. This is because Facebook Live videos are more interesting in the moment than after the fact.\"</p><a href=\"http://newsroom.fb.com/news/2016/03/news-feed-fyi-taking-into-account-live-video-when-ranking-feed/\" target=\"_blank\">Facebook Blog, March 1st, 2016 <i class=\"fa fa-angle-right\"></i></a><a href=\"./blog-single.html\" class=\"rmore\"></a><p></p>",
+          "_styles": {
+            "P": {
+              "font-size": "18px",
+              "text-align": "center"
+            }
+          },
+          "_customCSS": "text-align:center;\npadding-top: 10px;\npadding-bottom: 70px;"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form4",
+          "_anchor": "form4-7",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#31235e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "Get Notified When We Launch",
+          "text": "FB Live Scheduler is expected to launch early Spring 2017.",
+          "form": {
+            "action": "jay@weingage.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "First Name",
+                "customTitle": "First Name"
+              },
+              "lastName": {
+                "title": "Last Name",
+                "customTitle": "Last Name"
+              },
+              "email": {
+                "title": "Email",
+                "customTitle": "Email Address here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-block\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">NOTIFY ME</a>",
+          "_styles": {
+            "H5": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff",
+              "font-size": "16px"
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box11",
+          "_anchor": "msg-box11-8",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "title": "FROM YOUR FRIENDS AT <a href=\"http://ingage.co\" target=\"_blank\">INGAGE</a> | made with &lt;3 in ORLANDO",
+          "text": "Copyright 2017 Ingage, LLC. All Rights Reserved. FB Live Scheduler and Ingage are not endorsed by or affiliated with Facebook, Inc. or any of it's partners.",
+          "_customCSS": "text-align: center;"
+        }
+      ]
+    }
+  }
+}
